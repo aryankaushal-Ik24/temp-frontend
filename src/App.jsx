@@ -6,7 +6,7 @@ const App = () => {
       e.preventDefault();
       const shop = document.getElementById('shop').value;
       const clientId = 'd58d81c5f8fa4c477cda2118c4ea0c2d';
-      const redirectUri = encodeURIComponent('https://sides-invasion-lifestyle-ag.trycloudflare.com/auth/callback');
+      const redirectUri = encodeURIComponent('https://25ca-122-173-24-166.ngrok-free.app/auth/callback');
       const scopes = 'read_products';
       const authUrl = `https://${shop}/admin/oauth/authorize?client_id=${clientId}&scope=${scopes}&redirect_uri=${redirectUri}`;
       window.location.href = authUrl;
