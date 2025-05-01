@@ -10,6 +10,7 @@ const App = () => {
       const redirectUri = encodeURIComponent('https://temp-backend-5.onrender.com/auth/callback');
       const scopes = 'read_products';
       const authUrl = `https://${shop}/admin/oauth/authorize?client_id=${clientId}&scope=${scopes}&redirect_uri=${redirectUri}`;
+      console.log(authUrl);
       window.location.href = authUrl;
     };
 
