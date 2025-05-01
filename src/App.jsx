@@ -4,7 +4,7 @@ const App = () => {
   
     const handleOnClick = (e) => {
       e.preventDefault();
-      const shop = 'aryan-store-007.myshopify.com'
+      const shop = 'mv7wws-iz.myshopify.com'
       console.log(shop);
       const clientId = 'd58d81c5f8fa4c477cda2118c4ea0c2d';
       const redirectUri = encodeURIComponent('https://temp-backend-5.onrender.com/auth/callback');
